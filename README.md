@@ -1,7 +1,6 @@
 # SGA-NSGA-III: Enhanced Multi-Objective Optimization with Adaptive Fitness & Penalty
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Conference](https://img.shields.io/badge/ICCIDS_2026-IEEE-red?style=flat-square)
 
 A surrogate-guided, FN-aware multi-objective evolutionary algorithm for robust medical diagnosis. Outperforms NSGA-II, NSGA-III, and MOEA/D across 5 DTLZ benchmarks and 11 medical datasets.

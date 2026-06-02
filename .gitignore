@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets (large files — download separately via README links)
+datasets/
+*.csv
+*.data
+*.arff
+*.dat
+*.xlsx
+*.json
+!datasets/.gitkeep
+
+# Results & outputs (reproducible from notebook)
+results/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!docs/
+
+# Model checkpoints & saved objects
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Logs
+*.log
+logs/
+runs/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & credentials
+.env
+*.key
+*.pem
+secrets.yaml
+config_local.yaml
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/

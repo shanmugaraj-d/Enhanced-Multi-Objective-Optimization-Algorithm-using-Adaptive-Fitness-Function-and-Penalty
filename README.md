@@ -100,25 +100,3 @@ SGA-NSGA-III/
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{shanmugaraj2026sgansga3,
-  title     = {Enhanced Multi-Objective Optimization Algorithm Using Adaptive Fitness Function and Penalty},
-  author    = {Shanmugaraj, D. and Lakshmi Priya, S.},
-  booktitle = {9th International Conference on Computational Intelligence and Data Science (ICCIDS 2026)},
-  year      = {2026},
-  note      = {IEEE Technically Sponsored, SSN College of Engineering, Chennai}
-}
-```
-
----
-
-## Acknowledgements
-
-Supervised by **Dr. S. Lakshmi Priya**, Dept. of CSE, SSN College of Engineering, Chennai.  
-Datasets from [UCI ML Repository](https://archive.ics.uci.edu/) and [Kaggle](https://www.kaggle.com/).
-
-## License
-
-[MIT](LICENSE)

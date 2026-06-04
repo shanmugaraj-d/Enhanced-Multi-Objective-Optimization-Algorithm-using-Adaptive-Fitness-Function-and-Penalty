@@ -9,18 +9,6 @@ A surrogate-guided, FN-aware multi-objective evolutionary algorithm for robust m
 
 ---
 
-## Key Idea
-
-Standard NSGA-III uses a static fitness function and fixed penalties that can't adapt to population dynamics. This project introduces:
-
-- **Adaptive Fitness:** `F_i(x) = f_i(x) + θ(t, r, β) · P(x)` — penalty weight evolves with generation progress, feasible ratio, and false-negative sensitivity
-- **FN-Aware Surrogate:** `p_eff = p_base · exp(−λ · FN_risk)` — surrogate usage is suppressed when false-negative risk is high; true model always has final authority
-- **Dynamic Penalty:** `P(x) = Σ max(0, gⱼ(x)) + Σ |hₖ(x)|` — flexible constraint handling
-
-**Result: 44.5% reduction in true model evaluations with no loss in accuracy.**
-
-
-
 ## Key Contributions
 
 Standard NSGA-III uses a static fitness function and fixed penalties that cannot adapt to evolving population dynamics. This work introduces:
@@ -70,26 +58,6 @@ Download and place in `datasets/` folder.
 DTLZ1–5 benchmarks are generated automatically via `pymoo`.
 
 ---
-
-## Results Summary
-
-**DTLZ Benchmarks (HV higher is better / IGD lower is better):**
-
-| Problem | NSGA-III | MOEA/D | Adaptive | **Surrogate (Ours)** |
-|---|---|---|---|---|
-| DTLZ1 HV | 0.172 | 0.137 | 0.179 | **0.195** |
-| DTLZ3 HV | 7.10 | 6.50 | 9.26 | **10.65** |
-| DTLZ4 IGD | 0.10 | 0.72 | 0.09 | **0.08** |
-
-**Medical Classification Accuracy (%):**
-
-| Dataset | NSGA-III | Adaptive | **Surrogate (Ours)** |
-|---|---|---|---|
-| Statlog | 75.93 | 77.10 | **87.79** |
-| SPECTF | 81.48 | 83.22 | **90.59** |
-| Pima | 72.46 | 76.33 | **86.36** |
-
-
 
 ## Results
 

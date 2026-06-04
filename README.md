@@ -24,7 +24,7 @@ Standard NSGA-III uses a static fitness function and fixed penalties that can't 
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/SGA-NSGA-III.git
+git clone https://github.com/shanmugaraj-d/SGA-NSGA-III.git
 cd SGA-NSGA-III
 pip install -r requirements.txt
 jupyter notebook SGA-NSGA-III.ipynb

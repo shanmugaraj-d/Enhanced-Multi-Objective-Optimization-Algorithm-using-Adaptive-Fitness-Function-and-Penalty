@@ -1,0 +1,8 @@
+{
+  "ds_idx": 6,
+  "ds_name": "Breast Cancer Wisconsin (WDBC)",
+  "loader": "wdbc",
+  "file": "wdbc.data",
+  "max_loss": 0.3,
+  "min_acc": 0.9
+}
